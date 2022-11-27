@@ -1,7 +1,9 @@
-# Symfony PHP Skeleton
+# Prototype
 
-A skeleton shipped with PHP instead of YAML recipes configurations. 
+Usage:
 
 ```php
-composer create-project schranz-php-recipes/symfony-php-skeleton
+composer install
+
+vendor/bin/rector process --clear-cache --dry-run -vvv
 ```
